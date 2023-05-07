@@ -24,11 +24,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#backend
-
 .DS_Store
-__pycache__
-.zip
-.idea
-runs/
-counselchat-convai/
