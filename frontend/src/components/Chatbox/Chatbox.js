@@ -10,7 +10,7 @@ import {
   MainContainer,
 } from "@chatscope/chat-ui-kit-react";
 
-const API_KEY = "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"
+const API_KEY = "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"
 
 const systemMessage = { 
   "role": "system", 
