@@ -29,28 +29,20 @@ const Header = () => {
           Talk
         </NavLink>
         <span className="rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900">
-          Services
+          Questionaire
         </span>
-        <NavLink
-          to="/Location"
-          className={({ isActive }) =>
-            isActive
-              ? "rounded-lg px-3 py-2 text-white font-medium hover:bg-cyan-600 bg-cyan-300"
-              : "rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900"
-          }
-        >
-          Location
-        </NavLink>
-        <NavLink
-          to="/About"
-          className={({ isActive }) =>
-            isActive
-              ? "rounded-lg px-3 py-2 text-white font-medium hover:bg-cyan-600 bg-cyan-300 whitespace-nowrap"
-              : "rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
-          }
-        >
+        <span className="rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900">
+          Therapists
+        </span>
+        <span className="rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900">
+          Mediaction
+        </span>
+        <span className="rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900">
+          Jobs
+        </span>
+        <span className="rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900">
           About us
-        </NavLink>
+        </span>
       </nav>
     </header>
   );
