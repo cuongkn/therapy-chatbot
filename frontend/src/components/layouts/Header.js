@@ -12,7 +12,7 @@ const Header = () => {
           <img src={logo} alt="" />
         </NavLink>
       </div>
-      <nav className="flex sm:justify-center space-x-4">
+      <nav className="flex sm:justify-center items-center space-x-4">
         {/* {[
           ["Home", "/dashboard"],
           ["Team", "/team"],
@@ -79,9 +79,7 @@ const Header = () => {
         >
           About Us
         </NavLink>
-        <span className="rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900">
-          <img src={user} alt="" />
-        </span>
+        <img className="img-responsive w-8 h-8" src={user} alt="" />
       </nav>
     </header>
   );
