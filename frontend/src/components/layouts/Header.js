@@ -28,18 +28,45 @@ const Header = () => {
         >
           Talk
         </NavLink>
-        <span className="rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900">
-          Services
-        </span>
         <NavLink
-          to="/Location"
+          to="/Questionnaire"
           className={({ isActive }) =>
             isActive
               ? "rounded-lg px-3 py-2 text-white font-medium hover:bg-cyan-600 bg-cyan-300"
               : "rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900"
           }
         >
-          Location
+          Questionnaire
+        </NavLink>
+        <NavLink
+          to="/Therapists"
+          className={({ isActive }) =>
+            isActive
+              ? "rounded-lg px-3 py-2 text-white font-medium hover:bg-cyan-600 bg-cyan-300"
+              : "rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900"
+          }
+        >
+          Therapists
+        </NavLink>
+        <NavLink
+          to="/Medication"
+          className={({ isActive }) =>
+            isActive
+              ? "rounded-lg px-3 py-2 text-white font-medium hover:bg-cyan-600 bg-cyan-300 whitespace-nowrap"
+              : "rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
+          }
+        >
+          Medication
+        </NavLink>
+        <NavLink
+          to="/Jobs"
+          className={({ isActive }) =>
+            isActive
+              ? "rounded-lg px-3 py-2 text-white font-medium hover:bg-cyan-600 bg-cyan-300 whitespace-nowrap"
+              : "rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
+          }
+        >
+          Jobs
         </NavLink>
         <NavLink
           to="/About"
@@ -49,8 +76,10 @@ const Header = () => {
               : "rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap"
           }
         >
-          About us
+          About Us
         </NavLink>
+        <span className="rounded-lg px-3 py-2 text-slate-500 font-medium hover:bg-slate-100 hover:text-slate-900">
+        </span>
       </nav>
     </header>
   );
